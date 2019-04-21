@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:300,400');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    background-image: linear-gradient(to right,rgb(25, 97, 155) ,rgb(0, 255, 242));
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: snow;
+}
+.grid-item{
+    margin-top: 50%;
+}
+.grid-item form{
+    /* background-color: aliceblue; */
+    border-radius: 20px;
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2), 0px 6px 10px 0px rgba(0,0,0,0.14), 0px 1px 18px 0px rgba(0,0,0,0.12)
+}
+.grid-item form div{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+}
+.grid-item form input{
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid rgb(11, 136, 158);
+    padding-left: 15px;
+    transition: 0.5s;
+    background-color: rgba(0, 255, 242,0.1);
+    color: snow;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: snow;
+  }
+.grid-item form input:focus{
+    border: 3px solid rgb(11, 136, 158);
+}
+.grid-item form button{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: rgba(0,0,0,0.01);
+    color: snow;
+    border: 2px solid;
+}
+.grid-item form button:hover{
+    background-color: rgb(11, 136, 158);
+    cursor: pointer;
+}
+img{
+    height: 50px;
+}
