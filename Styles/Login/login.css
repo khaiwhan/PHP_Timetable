@@ -43,15 +43,16 @@ body{
 .grid-item form input:focus{
     border: 3px solid rgb(11, 136, 158);
 }
-.grid-item form button{
+.grid-item form a{
     padding: 10px;
     border-radius: 20px;
     font-size: 16px;
     background-color: rgba(0,0,0,0.01);
     color: snow;
     border: 2px solid;
+    text-decoration: none;
 }
-.grid-item form button:hover{
+.grid-item form a:hover{
     background-color: rgb(11, 136, 158);
     cursor: pointer;
 }
